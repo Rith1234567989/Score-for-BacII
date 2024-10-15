@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: brown;
+}
+h1 {
+  font-family: khmer Os Muol light;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  font-style: inherit;
+}
+.container {
+  padding: 20px;
+  border: 2px solid rgb(22, 194, 194);
+  border-radius: 10px;
+}
+input {
+  width: 250px;
+  font-size: 15px;
+  font-family: khmer OS Battambang;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border: 1px solid rgb(190, 15, 15);
+  border-radius: 3px;
+}
+button {
+  font-family: khmer os Muol Light;
+  font-size: 15px;
+  background-color: rgb(21, 255, 0);
+  display: block;
+  padding: 15px auto 0;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(6, 80, 177);
+}
+h2 {
+  font-size: 15px;
+  font-family: khmer os Muol light;
+  position: relative;
+  text-align: left;
+  margin-top: 5px;
+  color: #fff;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score for BacII</title>
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>គណនាពិន្ទុបាក់ឌុប<br />(ថ្នាក់វិទ្យាសាស្រ្តសម្គង)<br /></h1>
+      <input type="text" placeholder="ភាសាខ្មែរ" id="K" />
+      <input type="text" placeholder="គណិតវិទ្យា" id="M" />
+      <input type="text" placeholder="ភូមិវិទ្យា" id="G" />
+      <input type="text" placeholder="សីលធម៌ - ពលរដ្ឋវិជ្ជា" id="I" />
+      <input type="text" placeholder="ប្រវត្តិវិទ្យា​" id="H" />
+      <input type="text" placeholder="ផែនដី និង​បរិស្ថាន​វិទ្យា" id="D" />
+      <input type="text" placeholder="ភាសាបរទេស" id="E" />
+      <button type="button" onclick="show_result()">បង្ហាញលទ្ធផល</button>
+      <div id="result">
+        <h2>ពិន្ទុសរុប​​​ :<span id="total"></span></h2>
+        <h2>និទេ្ទស​ :<span id="mention"></span></h2>
+        <h2>​​លទ្ធផល​ :<span id="final_result"></span></h2>
+      </div>
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>
